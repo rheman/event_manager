@@ -1,0 +1,33 @@
+{
+	"name": "pessek/event_manager",
+	"description": "Manage events, from a simple appointment to a multi day event with day programs and subscriptions",
+	"type": "elgg-plugin",
+	"keywords": ["elgg", "plugin", "events"],
+	"license": "proprietary",
+    	"authors": [
+        	{
+			"name": "Hermand PESSEK",
+			"email": "rhemandaddy@gmail.com"
+        	}
+    	],
+	"require": {
+		"composer/installers": "^1.0.8",
+		"ext-json": "*",
+		"dompdf/dompdf" : "~0.8.0",
+		"bower-asset/fullcalendar": "~2.9.0"
+	},
+	"repositories": [
+		{
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+		}
+	],
+	"config": {
+		"fxp-asset": {
+            "enabled": false
+		}
+	},
+	"conflict": {
+		"elgg/elgg": "<3.3"
+	}
+}
