@@ -15,6 +15,14 @@
 	<requires>
 		<type>php_extension</type>
 		<name>json</name>
+	</requires>
+	<requires>
+		<type>plugin</type>
+		<name>pessek_location</name>
+	</requires>
+	<requires>
+		<type>plugin</type>
+		<name>hypeMapsOpen</name>
 	</requires>	
 	<category>tools</category>
 </plugin_manifest>
